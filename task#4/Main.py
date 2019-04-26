@@ -37,7 +37,7 @@ i = norm.ScalarMultiplication()
 i.setA(0)
 i.setB(2)
 i.setStep()
-print("\nВсевозможные скалярные произведения функциями в E[0,2]")
+print("\nВсевозможные скалярные произведения между функциями в E[0,2]")
 for f1, t1 in zip(listOfFunctions, listOfLegend):
     for f2, t2 in zip(listOfFunctions, listOfLegend):
         if f1 != f2:
